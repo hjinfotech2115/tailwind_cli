@@ -4,15 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio | Creative Developer</title>
     <link rel="stylesheet" href="./output.css">
 
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter">ALEX.DEV</div>
+        <ul class="hidden md:flex space-x-8 font-medium text-slate-600">
+            <li><a href="#" class="hover:text-indigo-600 transition">Work</a></li>
+            <li><a href="#" class="hover:text-indigo-600 transition">About</a></li>
+            <li><a href="#" class="hover:text-indigo-600 transition">Contact</a></li>
+        </ul>
+        <button
+            class="bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700 transition shadow-lg shadow-indigo-200">
+            Resume
+        </button>
+    </nav>
+
+    <section class="max-w-7xl mx-auto px-8 py-20 lg:py-32 flex flex-col items-center text-center">
+        <span class="bg-indigo-100 text-indigo-700 px-4 py-1 rounded-full text-sm font-semibold mb-6">
+            Available for freelance
+        </span>
+        <h1 class="text-5xl lg:text-7xl font-extrabold mb-6 leading-tight">
+            Building digital products <br /> <span class="text-indigo-600">with purpose.</span>
+        </h1>
+        <p class="text-lg text-slate-500 max-w-2xl mb-10">
+            I'm a Full-stack Developer specializing in clean interfaces and scalable backend systems. I help brands turn
+            complex ideas into simple, functional realities.
+        </p>
+        <div class="flex space-x-4">
+            <button class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition">
+                View Projects
+            </button>
+            <button class="border border-slate-300 px-8 py-4 rounded-xl font-bold hover:bg-slate-100 transition">
+                Let's Talk
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-white border-y border-slate-200 py-16">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="text-center text-sm font-bold uppercase tracking-widest text-slate-400 mb-12">Expertise</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-indigo-500 rounded-lg mb-4"></div>
+                    <h3 class="font-bold">Frontend</h3>
+                    <p class="text-sm text-slate-500 text-center">React, Tailwind, Vue</p>
+                </div>
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-emerald-500 rounded-lg mb-4"></div>
+                    <h3 class="font-bold">Backend</h3>
+                    <p class="text-sm text-slate-500 text-center">Node, Python, Go</p>
+                </div>
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-orange-500 rounded-lg mb-4"></div>
+                    <h3 class="font-bold">Design</h3>
+                    <p class="text-sm text-slate-500 text-center">Figma, Adobe XD</p>
+                </div>
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-2xl hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-purple-500 rounded-lg mb-4"></div>
+                    <h3 class="font-bold">Cloud</h3>
+                    <p class="text-sm text-slate-500 text-center">AWS, Docker, Vercel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
+        <p>© 2025 Alex Dev. Built with Tailwind CSS.</p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+            <a href="#" class="hover:text-indigo-600">Twitter</a>
+            <a href="#" class="hover:text-indigo-600">GitHub</a>
+            <a href="#" class="hover:text-indigo-600">LinkedIn</a>
+        </div>
+    </footer>
 </body>
 
 </html>
